@@ -1,0 +1,37 @@
+AutoECO Report
+FILE-A: C:\ORCAD\ORCAD_10.5\TOOLS\LAYOUT_PLUS\DATA\_DEFAULT.TCH
+FILE-B: C:\USERS\SIMO\DESKTOP\DRON2\DRONE2.MNL
+If "*EOF*" immediately follows, no changes were made
+Adding footprint ADXL
+Adding footprint DRIVERS2
+Adding footprint ARDUINO
+Adding footprint NRF
+Adding package AXDL345
+Adding package DRIVERS2
+Adding package A000005_3
+Adding package NRF24L01
+Adding component U15
+Adding component U18
+Adding component U19
+Adding component U1
+Adding component U16
+Adding component U20
+Adding component U17
+Adding net N21951
+Adding net N22318
+Adding net N23715
+Adding net N23998
+Adding net N24075
+Adding net N24155
+Adding net N24401
+Adding net N24489
+Adding net N02666
+Adding net N03481
+Adding net N03549
+Adding net N03816
+Adding net N04776
+Adding net N04854
+Adding net N04249
+Deleting net DEFAULT
+*EOF*
+No errors found

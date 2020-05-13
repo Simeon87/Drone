@@ -1,0 +1,114 @@
+(ExpressProject "Dron"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\dron\library1.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File "..\dron\dron.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DRC_Scope "0")
+    (DRC_Action "1")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_Check_Ports "TRUE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "TRUE")
+    (DRC_SDT_Compatibility "TRUE")
+    (DRC_Report_Off-grid_Objects "TRUE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Netnames "TRUE")
+    (DRC_View_Output "FALSE")
+    (DRC_Report_File "C:\USERS\SIMO\DESKTOP\DRON\DRON.DRC")
+    (Netlist_TAB "3")
+    (LAYOUT_Netlist_File "C:\Users\Simo\Desktop\dron2\drone2.mnl")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    (FALSE)
+    (LAYOUT_Units "0")
+    ( "FALSE"))
+  (Folder "Outputs"
+    (File "..\dron\dron.drc"
+      (Type "Report"))
+    (File "..\dron\layout\drone.mnl"
+      (Type "LAYOUT Netlist File"))
+    (File ".\drone.mnl"
+      (Type "LAYOUT Netlist File"))
+    (File ".\drone2.mnl"
+      (Type "LAYOUT Netlist File")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (drivers2
+      (FullPartName "drivers2.Normal")
+      (LibraryName "C:\USERS\SIMO\DESKTOP\DRON\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (NRF24L01
+      (FullPartName "NRF24L01.Normal")
+      (LibraryName "C:\USERS\SIMO\DESKTOP\DRON\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (AXDL345
+      (FullPartName "AXDL345.Normal")
+      (LibraryName "C:\USERS\SIMO\DESKTOP\DRON\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (ESC
+      (FullPartName "ESC.Normal")
+      (LibraryName "C:\USERS\SIMO\DESKTOP\DRON\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    ("MPU6050 IMU "
+      (FullPartName "MPU6050 IMU .Normal")
+      (LibraryName "C:\USERS\SIMO\DESKTOP\DRON\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (Receiver
+      (FullPartName "Receiver.Normal")
+      (LibraryName "C:\USERS\SIMO\DESKTOP\DRON\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (A000005
+      (FullPartName "A000005.Normal")
+      (LibraryName "C:\USERS\SIMO\DESKTOP\DRON\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "C:\ORCAD\ORCAD_10.5\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("433 MHz RF Receiver"
+      (FullPartName "433 MHz RF Receiver.Normal")
+      (LibraryName "C:\USERS\SIMO\DESKTOP\DRON\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (Motor
+      (FullPartName "Motor.Normal")
+      (LibraryName "C:\USERS\SIMO\DESKTOP\DRON\LIBRARY1.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "..\dron\dron.dsn")
+      (Path "Design Resources" "..\dron\dron.dsn" "SCHEMATIC1")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "..\dron\library1.olb")
+      (Path "Outputs")
+      (Select "Design Resources" "..\dron\dron.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 0 541 -8 -30 0 200 0 351"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 250 1812 250 840")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path "C:\USERS\SIMO\DESKTOP\DRON\DRON.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "Simo")
+  (LastUsedLibraryBrowseDirectory "C:\Users\Simo\Desktop\Dron"))
